@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(255, 0, 0);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+
+h1, h2 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(169, 169, 169);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+
+input, textarea {
+  background-color: rgb(169, 169, 169);
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: white;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: orange;
+}
+
+.panel {
+  background-color: rgb(39, 38, 38);
+  border: 1px solid rgb(39, 38, 38);
+  border-radius: 8px;
+  padding: 40px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 1200px; 
+}
