@@ -8,7 +8,7 @@ function Home() {
       <section>
         <div class="panel">
             <center><h1>Home</h1></center>
-            <p>My name is John Gerald S. Pizarro, I will become a game developer.</p>
+            <center><p>My name is John Gerald S. Pizarro, I will become a game developer.</p></center>
         </div>
     </section>
     </Container>
