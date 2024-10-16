@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
+
 function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const navigate = useNavigate();
@@ -54,11 +55,11 @@ function Contact() {
           />
         </Form.Group>
 
-
-        <Button id="ButtonSubmit" type="submit">Submit</Button>
+        <Button type="button" class="btn btn-outline-warning">Submit</Button>
       </Form>
       </div>
     </Container>
+    
   );
 }
 

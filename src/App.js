@@ -12,8 +12,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      {/* Navbar */}
-      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <Navbar>
         <Container>
           <Navbar.Brand as={Link} to="/">My Profile</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +27,6 @@ function App() {
         </Container>
       </Navbar>
 
-      {/* Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

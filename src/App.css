@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(39, 38, 38);
 }
 
 .nav-link {
@@ -85,18 +85,5 @@ input:focus, textarea:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
   max-width: 1200px; 
-}
-.ButtonSubmit {
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  border: none;    
-  cursor: pointer;      
-  font-size: 16px;       
-}
-
-.ButtonSubmit:hover {
-  background-color: orange;
-  color: black;
 }
 
