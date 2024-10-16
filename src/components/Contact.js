@@ -55,7 +55,7 @@ function Contact() {
         </Form.Group>
 
 
-        <Button id="ButtonSubmit" variant="primary" type="submit">Submit</Button>
+        <Button id="ButtonSubmit">Submit</Button>
       </Form>
       </div>
     </Container>
