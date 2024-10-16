@@ -86,3 +86,17 @@ input:focus, textarea:focus {
   margin: 0 auto;
   max-width: 1200px; 
 }
+.ButtonSubmit {
+  background-color: black; /* Normal background color */
+  color: white;           /* Text color */
+  padding: 10px 20px;    /* Padding */
+  border: none;          /* Remove default border */
+  cursor: pointer;       /* Change cursor to pointer */
+  font-size: 16px;       /* Font size */
+}
+
+.ButtonSubmit:hover {
+  background-color: orange; /* Background color on hover */
+  color: black;             /* Text color on hover */
+}
+
