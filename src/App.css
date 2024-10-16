@@ -87,16 +87,16 @@ input:focus, textarea:focus {
   max-width: 1200px; 
 }
 .ButtonSubmit {
-  background-color: black; /* Normal background color */
-  color: white;           /* Text color */
-  padding: 10px 20px;    /* Padding */
-  border: none;          /* Remove default border */
-  cursor: pointer;       /* Change cursor to pointer */
-  font-size: 16px;       /* Font size */
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;    
+  cursor: pointer;      
+  font-size: 16px;       
 }
 
 .ButtonSubmit:hover {
-  background-color: orange; /* Background color on hover */
-  color: black;             /* Text color on hover */
+  background-color: orange;
+  color: black;
 }
 
