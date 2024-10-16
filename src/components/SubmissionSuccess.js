@@ -11,7 +11,7 @@ function SubmissionSuccess() {
       <div class="panel">
         <center>
       <h1>Thank you, {name}!</h1>
-      <p>Your message has been sent.</p>
+      <p class="p">Your message has been sent.</p>
       <h3>Details:</h3>
       <p><strong>Email:</strong> {email}</p>
       <p><strong>Message:</strong> {message}</p>

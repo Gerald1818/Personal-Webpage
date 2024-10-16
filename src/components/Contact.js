@@ -54,7 +54,6 @@ function Contact() {
             />
           </Form.Group>
 
-          {/* Corrected Button with `type="submit"` */}
           <Button variant="outline-warning" type="submit">
             Submit
           </Button>
