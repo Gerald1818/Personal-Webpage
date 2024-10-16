@@ -8,7 +8,7 @@ function Home() {
       <section>
         <div class="panel">
             <center><h1>Home</h1></center>
-            <p>My name is John Gerald S. Pizarro, I'm 21 years old and I live in Mamatid, Cabuyao, Laguna. I'm currently studying BSCS (Bachelor of Science in Computer Science).</p>
+            <p>My name is John Gerald S. Pizarro, I will become a game developer.</p>
         </div>
     </section>
     </Container>
