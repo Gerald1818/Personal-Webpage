@@ -15,7 +15,6 @@ function App() {
       <Navbar>
         <Container>
           <Navbar.Brand as={Link} to="/">My Profile</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Nav className="tab">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
